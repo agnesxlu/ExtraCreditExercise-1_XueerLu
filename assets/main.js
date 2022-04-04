@@ -7,8 +7,7 @@ document.getElementById('fontcolor').addEventListener('click', function onClick(
 document.getElementById('fontFamily').addEventListener('click', function onClick(event) {document.body.style.fontFamily = 'Times New Roman';
 });
 
-document.getElementById('replacement').addEventListener('click', function onClick(event) {document.body.style.textContent.replace = 'Hello World!';
-});
+function change_text(){document.getElementById("replacement").innerHTML = "Hi, I'm the new paragraph!";};
 
 document.getElementById('alert').addEventListener('click',function(event){
     alert('Good Luck!');
